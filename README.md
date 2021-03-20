@@ -47,7 +47,7 @@ describe 'new post' do
     expect(page.status_code).to eq(200)
   end
 end
-```
+```         
 
 As expected, this results in a failure saying that we don't have a `new_post_path` method, so let's create that in our `routes.rb` file:
 
